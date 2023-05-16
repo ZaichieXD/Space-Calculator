@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Space Calculator";
+}
+
+<div class="calculator-style">
+    <h1>Space Calculator</h1>
+    <input id="inputTextBox" class="inputTextBox" type="text" name="inputTextBox" />
+
+    <div class="calculator-btn">
+        <button onclick="insertValueToTextBox('1')">1</button>
+        <button onclick="insertValueToTextBox('2')">2</button>
+        <button onclick="insertValueToTextBox('3')">3</button>
+        <button onclick="setOperationToUse('+')">+</button>
+        <button onclick="insertValueToTextBox('4')">4</button>
+        <button onclick="insertValueToTextBox('5')">5</button>
+        <button onclick="insertValueToTextBox('6')">6</button>
+        <button onclick="setOperationToUse('-')">-</button>
+        <button onclick="insertValueToTextBox('7')">7</button>
+        <button onclick="insertValueToTextBox('8')">8</button>
+        <button onclick="insertValueToTextBox('9')">9</button>
+        <button onclick="setOperationToUse('*')">x</button>
+        <button onclick="insertValueToTextBox('0')">0</button>
+        <button onclick="setOperationToUse('/')">/</button>
+        <button onclick="calculateUsingTheOperator()">=</button>
+        <button onclick="clearTextBoxValue()">Clear</button>
+    </div>
+</div>
